@@ -4,14 +4,14 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://cda30328.github.io/sato-mei-blog/</loc>
+    <loc>https://cda30328.github.io/sato-mei-diary/</loc>
 
     <image:image>
-      <image:loc>https://cda30328.github.io/sato-mei-blog/sato-mei-prof.jpg</image:loc>
+      <image:loc>https://cda30328.github.io/sato-mei-diary/sato-mei-prof.jpg</image:loc>
     </image:image>
 
     <image:image>
-      <image:loc>https://cda30328.github.io/sato-mei-blog/sato-mei-under.jpg</image:loc>
+      <image:loc>https://cda30328.github.io/sato-mei-diary/sato-mei-under.jpg</image:loc>
     </image:image>
 
   </url>
