@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cda30328.github.io/sato-mei-blog/sitemap.xml
