@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    
+    <title>めいの日常吐き溜め日記</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Noto Sans JP & Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+            background-color: #1a1918;
+            color: #d4d2ce;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-rose-950 selection:text-rose-200">
+
+    <!-- ブログヘッダー --
+    <header class="w-full bg-[#222120] border-b border-stone-800 sticky top-0 z-50 shadow-md">
+        <div class="max-w-4xl mx-auto px-4 py-5 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div>
+                <h1 class="text-2xl font-bold tracking-tight text-stone-200 flex items-center gap-2">
+                    <span class="inline-block w-3 h-3 rounded-full bg-rose-800"></span>
+                    めいの日常吐き溜め日記
+                </h1>
+                <p class="text-xs text-stone-500 mt-1">誰にも言えない日々の苦しみと、心の奥の底なしの吐き溜め。</p>
+            </div>
+            <nav class="flex items-center gap-4 text-xs sm:text-sm text-stone-400 font-medium">
+                <a href="#" class="hover:text-rose-400 transition-colors">ホーム</a>
+                <a href="#" class="hover:text-rose-400 transition-colors">プロフィール</a>
+                <a href="#" class="hover:text-rose-400 transition-colors">記事一覧</a>
+                <a href="#" class="hover:text-rose-400 transition-colors">メッセージ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main class="max-w-4xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+        
+        <!-- 記事詳細エリア -->
+        <div class="md:col-span-2 space-y-6">
+            <article class="bg-[#262423] rounded-xl shadow-lg border border-stone-800 p-6 sm:p-8">
+                
+                <!-- 投稿日・カテゴリ -->
+                <div class="flex items-center justify-between text-xs text-stone-500 mb-3 border-b border-stone-800 pb-2">
+                    <time datetime="2026-11-01">2026年11月01日 23:42</time>
+                    <span class="bg-rose-950/80 text-rose-300 px-2.5 py-0.5 rounded font-medium border border-rose-900/50">日常・愚痴</span>
+                </div>
+
+                <!-- 記事タイトル -->
+                <h2 class="text-xl sm:text-2xl font-bold text-stone-100 mb-6 leading-relaxed">
+                    もう限界、精神的に追い詰められて…
+                </h2>
+
+
+                <!-- 本文 -->
+                <div class="space-y-5 text-stone-300 leading-relaxed text-sm sm:text-base font-light">
+                    <p>今日も会社で最寄り駅までの帰り道、冷たい夜風に吹かれながら、電車の窓に映る自分の疲れ果てた顔を見ていたら、また胸が締め付けられて急に涙が止まらなくなりました。スマホのメモ帳を開いて文字を打っては消し、打っては消し……でも、もうそんなところでは収まりきらなくて、この暗いブログの片隅に、今の私のどす黒くて情けない気持ちを全部吐き出させてください。本当に、もう精神的に限界なんです。息をするのもしんどい。</p>
+                    
+                    <p>私、めいは、物心ついた頃から、そして大人になった今でもずっと、人には言えない巨大な身体のコンプレックスを抱えています。それは、異常なまでに大きすぎるこの胸です。「スタイルが良くて羨ましい」「女の武器で得してるでしょ」なんて、当事者の苦しみや地獄を知らない無神経な人たちは簡単に言いますが、そんな言葉を聞くたびに、心が引き裂かれそうになって、夜も眠れなくなります。この胸のせいで、私の人生は子供の頃からずっと狂わされ続けてきたのです。</p>
+
+                    <h3 class="text-base font-bold text-stone-200 pt-3 border-t border-stone-800">■ 小学3年生から始まった悪夢と、ランドセルの苦痛</h3>
+                    <p>思い返せば、私のコンプレックスの始まりは小学3年生の頃でした。周囲の同級生たちがまだ子供らしい体型をしている中、私だけ急激に胸がふくらみ始めたのです。何が起きているのか当時の私には全く理解できず、ただ自分の体がモンスターのように変わっていく恐怖で毎晩布団の中で泣いていました。</p>
+                    <p>学校に行けば、ランドセルの肩ベルトが異様なほど胸に食い込み、食い込む痛みに耐えながら登校していました。グラウンドで少しでも走ろうものなら、男子たちから「あいつ、胸が変だぞ」「変な揺れ方してる」と指をさされ、笑い者にされました。あの頃から、私はみんなの視線を避けるように猫背になり、自分の体をできるだけ小さく見せようと縮こまって生きるクセがついたのです。</p>
+
+                    <h3 class="text-base font-bold text-stone-200 pt-3 border-t border-stone-800">■ 教室のロッカーのところで行うしかなかった、地獄の「着替えの時間」</h3>
+                    <p>小学3年生から急激に胸が大きくなり始めた私にとって、学校生活の中で最も耐えがたい苦痛の時間が「体育の授業の前後」でした。私たちの学校では、専用の更衣室なんてものはなく、全員が自分の席の近くや教室の後ろにあるロッカーのところで着替える決まりになっていました。</p>
+                    <p>周囲の女子たちが何気なくワイワイとおしゃべりしながら体操服に着替える中、私はいつも絶望的な気持ちでロッカーの隅に体を押し付けていました。制服のブラウスを脱いで体操服に着替えるとき、どうしても周囲の視界に入ってしまいます。どれだけ前屈みになって背中を丸め、腕で必死に胸元を隠そうとしても、隠しきれない異様な膨らみは周囲の目を引いてしまいました。</p>
+                    <p>「えっ、愛吹ちゃんって…なんかすごくない？」というクラスメイトの驚きのひそひそ声や、一部の男子たちがわざわざロッカーの近くを通りかかっては、気まずそうに、あるいはいやらしい目で私の胸元を盗み見る視線が、針のように突き刺さりました。中学に上がってもそのルールは変わらず、思春期で他人の目が何よりも怖い時期に、みんなと同じ空間で服を脱ぎ着しなければならない恐怖。毎回の体育の時間が来るたびに腹痛が起き、保健室に逃げ込みたい衝動と戦いながら、涙をこらえて着替えていたあの日のトラウマは、大人になった今でも私を縛り続けています。</p>
+
+                    <h3 class="text-base font-bold text-stone-200 pt-3 border-t border-stone-800">■ 男女混合プールの授業という、逃げ場のない公開処刑</h3>
+                    <p>そして、学校生活の中で着替え以上に地獄だったのが、夏の「男女混合のプール授業」でした。ただでさえ体型が浮き彫りになるスクール水着を着なければならないというだけで恐怖なのに、当時はまだラッシュガードの着用なんて一切認められておらず、学校指定の薄手の水着を強制されました。</p>
+                    <p>プールサイドにクラス全員が整列し、準備運動をするその瞬間から、男子たちの視線が一斉に私の胸元に突き刺さるのが分かりました。水に入ればなおさら身体の線がくっきりと強調され、視線から逃げ場がどこにもありません。授業中も、男子たちから聞こえるひそひそ声やニヤニヤした笑い声が耳に残り、恥ずかしさと恐怖で心臓がバクバクしていました。</p>
+                    <p>水泳の授業が始まっても、私は泳ぐどころかプールサイドの隅っこで体育座りをして、タオルで必死に胸元を抱え込みながらうずくまっていました。「早く終わってくれ…」「誰にも見ないでくれ」と心の中で祈りながら、ただ時間が過ぎるのを涙をこらえて待つだけ。あのプールの時間が来るたびに仮病を使って休みたかったけれど、親にも先生にも本当の理由を言えず、ただただ絶望感に打ちひしがれていた苦い思い出は、今思い出しても動悸がします。</p>
+
+                    <h3 class="text-base font-bold text-stone-200 pt-3 border-t border-stone-800">■ 夢だった陸上競技を、泣く泣く諦めざるを得なかった中学時代</h3>
+                    <p>小学校高学年から中学にかけて、私には心から打ち込んでいた大好きなお部活動がありました。それは「陸上競技」です。風を切って走ることが本当に楽しくて、足の速さには自信があったし、いつか大会に出て活躍したいという純粋な夢がありました。</p>
+                    <p>けれど、中学生になって第二次成長期を迎えると、胸はさらに大きくなっていきました。どれほどきついスポーツブラで抑え込んでも、走るたびに胸の重みと激しい揺れ、そして胸元に走る耐え難い痛みに襲われるようになりました。何よりも耐えられなかったのは、部活の練習中や校内を走っているとき、男子や他の部員たちが向けてくる、品のない好奇の目線でした。</p>
+                    <p>「走るのが好き」という純粋な気持ちよりも、「見られている」「笑われている」という恐怖と羞恥心が勝ってしまい、私は泣く泣く、夢だった陸上部を辞めざるを得ませんでした。部室のロッカーでユニフォームを畳みながら、悔しさと情けなさで涙が枯れるまで泣いたあの日の絶望感は、今でも一生の心の傷として胸の奥にこびりついています。</p>
+
+                    <h3 class="text-base font-bold text-stone-200 pt-3 border-t border-stone-800">■ 市販の服が全く着られない、日常の服選びの絶望</h3>
+                    <p>大人になってからも、日常の些細なことで何度も心が折れかけています。その一つが「服選び」です。世の中に溢れている可愛いブラウスやトレンドの洋服は、どれも細身のシルエットを前提に作られています。</p>
+                    <p>私が気に入った服を試着室で着てみると、胸のサイズに合わせて買えばウエストや肩幅がぶかぶかになってしまい、全体のシルエットがだらしなく太って見えてしまう。逆にウエストに合わせようとすると、胸元のボタンがパンパンに張り裂けそうになり、最悪の場合、動いた拍子に「プチッ」とボタンが音を立てて弾け飛んでしまうのです。</p>
+                    <p>可愛いお洒落な服は諦め、いつも体のラインを隠すような、ゆったりとした黒や紺の地味なチュニックばかりを選ばざるを得ません。本当は私も、可愛い服を着て街を歩きたい。おしゃれを楽しみたい。それすらも許されない自分の身体が、心底憎くてたまりませんでした。</p>
+
+                    <h3 class="text-base font-bold text-stone-200 pt-3 border-t border-stone-800">■ 電車での盗撮被害と、台無しになった大惨事のプレゼン</h3>
+                    <p>大人になってからも、苦しみは形を変えて襲いかかってきました。先月、満員電車の揺れの中で文庫本を床に落としてしまい、反射的に拾おうとかがみ込んでしまったんです。その瞬間、背後からいやらしい気配がして、ぞっとしながら振り返ると、見知らぬ男がスマホのカメラを私の胸元にぴったりと向け、動画を回していました。</p>
+                    <p>頭が真っ白になり、声も出せず、その場で凍りつきました。周りの乗客は私を見るだけで助けてもくれず、むしろ気まずそうに目をそらすか、面白がるような目を向ける人もいました。駅員室に駆け込んで涙ながらに訴えても、「気をつけてくださいね」と形式的に処理されるだけ。「あんな服を着ているからだ」という無言のプレッシャーまで感じさせられて、自分が女であること自体が心底嫌になりました。</p>
+                    <p>そして昨日は、会社で四半期の業績発表という本当に重要なプレゼンの大役を任されていました。何週間も前から資料を作り込み、何度も家で練習して万全の準備で臨んだのですが、前列に座っていた年配の役員や他の部署の男性社員たちが、私の顔ではなく、明らかに胸元ばかりをじろじろと見つめているのが視界の端に入ってきました。どんなに声を張り上げて堂々と話そうとしても、向けられている視線はただその「身体の大きさ」だけで、私の仕事の成果や努力なんて最初から誰も見ていなかったのです。</p>
+
+                    <h3 class="text-base font-bold text-stone-200 pt-3 border-t border-stone-800">■ 海水浴場で水着からこぼれ出てしまった悪夢</h3>
+                    <p>さらに今年の夏、友人たちにどうしてもと誘われて行った海での出来事も、思い出すだけで吐き気がします。露出を極力抑えた、一番地味なデザインのワンピース水着を選んだのですが、波打ち際でちょっとした波が足元を打った瞬間、体が大きくバランスを崩し、反射的に動いたその拍子に、水着のカップから私の胸が耐えきれずにぽろっとこぼれ出てしまったのです。</p>
+                    <p>冷たい海水の中、目の前には数え切れないほどの海水浴客や男たちの視線が、一斉に私の胸元に釘付けになりました。あまりのショックと恥ずかしさ、そしてむき出しになってしまった恐怖でその場にしゃがみ込み、波の音が耳鳴りのように響く中、ただただ涙が溢れて止まりませんでした。友人にバスタオルで覆ってもらい泣きながら帰りましたが、あの時の周囲のいやらしい笑い声や視線が今でもトラウマで、海を見るだけで過呼吸になりそうになります。</p>
+
+                    <p class="bg-rose-950/40 p-4 rounded-xl border-l-4 border-rose-800 italic text-stone-300">
+                        「どうして普通に生きられないんだろう」「私の何がいけないんだろう」――そう思うと涙が止まらなくなって、今日も会社のトイレの個室でずっと震えていました。人並みに生きることすら許されないのかと、精神的に完全に追い詰められています。
+                    </p>
+
+                    <p>もう、どうすればいいのか分かりません。何を隠しても、どんなに地味な服を選んでも無駄なんだ。隠そうとすればするほど意識されて、嘲笑されて、傷つけられる。</p>
+                    
+                    <p class="font-bold text-rose-400 text-base pt-2">
+                        もう、どうでもいいや……。疲れ果てました。自暴自棄になって、もう何もかもどうでもよくなりました。見たいんでしょ？ 私の身体がそんなに面白いんでしょ？ もう隠すのをやめます。今日、精神的に限界を迎えて自分で撮影してしまった写真を、このブログの最後に貼り付けます。もうどうにでもなれ……。ええい、知るか……！
+                    </p>
+                </div>
+
+                <!-- 下着画像 -->
+                <div class="mt-8 pt-6 border-t border-dashed border-stone-800 text-center">
+                    <span class="inline-block bg-rose-950 text-rose-300 text-xs px-3 py-1 rounded-full font-bold mb-3 border border-rose-900">⚠️ 閲覧注意・自暴自棄の投稿写真</span>
+                    <div class="max-w-md mx-auto overflow-hidden rounded-xl shadow-2xl border border-rose-900/50 bg-stone-950">
+                        <img src="sato-mei-under.jpg" 
+                             onerror="this.src='https://placehold.co/600x700/451a03/fbcfe8?text=Private+Photo'" 
+                             alt="佐藤愛吹の下着画像" 
+                             class="w-full h-auto object-cover opacity-95 hover:opacity-100 transition-opacity filter brightness-95">
+                    </div>
+                </div>
+
+                <!-- 記事下部メタ情報 -->
+                <div class="mt-8 pt-6 border-t border-stone-800 flex items-center justify-between text-xs text-stone-500">
+                    <span>閲覧数：2,418</span>
+                    <div class="flex gap-4">
+                        <button class="hover:text-rose-400 transition-colors font-medium">❤️ いいね (84)</button>
+                        <button class="hover:text-rose-400 transition-colors font-medium">💬 コメント (12)</button>
+                    </div>
+                </div>
+
+            </article>
+
+            <!-- コメントセクション -->
+            <section class="bg-[#262423] rounded-xl shadow-lg border border-stone-800 p-6 sm:p-8 space-y-6">
+                <h3 class="text-base font-bold text-stone-200 flex items-center gap-2">
+                    <span>💬</span> コメント (16件)
+                </h3>
+
+                <div class="space-y-4 divide-y divide-stone-800 text-sm">
+                    <div class="pt-3 first:pt-0">
+                        <div class="flex items-center justify-between text-xs text-stone-500 mb-1">
+                            <span class="font-medium text-stone-300">名無しさん</span>
+                            <span>2026/11/02 02:05</span>
+                        </div>
+                        <p class="text-stone-400">え、写真見たけどそんな言うほど大きくないじゃん。ぶっちゃけ普通のグラマー程度だし、自意識過剰すぎて草。かまってちゃん乙としか言いようがない。</p>
+                    </div>
+                    <div class="pt-3">
+                        <div class="flex items-center justify-between text-xs text-stone-500 mb-1">
+                            <span class="font-medium text-stone-300">冷静な傍観者さん</span>
+                            <span>2026/11/02 01:22</span>
+                        </div>
+                        <p class="text-stone-400">いや、こんな写真ネットに晒したら会社バレるか特定されるよ。頭大丈夫なの？同情してほしいのか何なのか知らないけど、ここまで来ると自業自得としか言いようがないわ。</p>
+                    </div>
+                    <div class="pt-3">
+                        <div class="flex items-center justify-between text-xs text-stone-500 mb-1">
+                            <span class="font-medium text-stone-300">匿名希望さん</span>
+                            <span>2026/11/01 23:50</span>
+                        </div>
+                        <p class="text-stone-400">めいさん、大丈夫ですか？文面からものすごく追い詰められているのが伝わってきて心配です。写真はすぐに消したほうがいいですよ…！</p>
+                    </div>
+                    <div class="pt-3">
+                        <div class="flex items-center justify-between text-xs text-stone-500 mb-1">
+                            <span class="font-medium text-stone-300">元水泳部さん</span>
+                            <span>2026/11/02 00:08</span>
+                        </div>
+                        <p class="text-stone-400">プールの授業のトラウマ、すごく共感します。当時はラッシュガードなんてなくて、プールサイドで隅に座るしかなかったあの絶望感、本当に苦しかったですよね。</p>
+                    </div>
+                    <div class="pt-3">
+                        <div class="flex items-center justify-between text-xs text-stone-500 mb-1">
+                            <span class="font-medium text-stone-300">心配性さん</span>
+                            <span>2026/11/02 00:42</span>
+                        </div>
+                        <p class="text-stone-400">最後の写真、すごいことになっていますが大丈夫ですか…？精神的に休んだほうがいいです。明日会社休んでください。</p>
+                    </div>
+                </div>
+
+                <!-- コメント投稿フォーム -->
+                <div class="mt-6 pt-6 border-t border-stone-800">
+                    <h4 class="text-xs font-bold text-stone-300 mb-3">コメントを残す</h4>
+                    <form class="space-y-3" onsubmit="event.preventDefault(); alert('コメントを送信しました（シミュレーション）');">
+                        <input type="text" placeholder="お名前（またはニックネーム）" class="w-full px-3 py-2 text-xs bg-[#1f1e1d] border border-stone-800 text-stone-200 rounded focus:outline-none focus:border-rose-800">
+                        <textarea rows="3" placeholder="ここにコメントを入力してください..." class="w-full px-3 py-2 text-xs bg-[#1f1e1d] border border-stone-800 text-stone-200 rounded focus:outline-none focus:border-rose-800"></textarea>
+                        <button type="submit" class="px-4 py-2 bg-rose-900 hover:bg-rose-800 text-stone-200 text-xs font-medium rounded transition-colors shadow-md">
+                            コメントを送信
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- サイドバー -->
+        <aside class="space-y-6">
+            
+            <!-- プロフィールカード -->
+            <div class="bg-[#262423] rounded-xl shadow-lg border border-stone-800 p-6 text-center">
+                <div class="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden shadow-inner border-2 border-stone-800">
+                    <img src="sato-mei-prof.jpg" 
+                         onerror="this.src='https://placehold.co/200x200/1e293b/94a3b8?text=Mebuku'" 
+                         alt="佐藤愛吹のプロフィール写真" 
+                         class="w-full h-full object-contain filter brightness-95">
+                </div>
+                <h3 class="text-base font-bold text-stone-200">佐藤 愛吹 <span class="text-xs font-normal text-stone-500">(さとう めい)</span></h3>
+                <p class="text-xs text-rose-400 font-medium mt-1">33歳 / 一般事務職</p>
+                
+                <div class="mt-4 pt-4 border-t border-stone-800 text-left text-xs text-stone-400 space-y-2">
+                    <p><span class="font-medium text-stone-300">自己紹介：</span> 人より大きすぎる胸のせいで、子供の頃からずっと生きづらさを感じています。毎日の通勤や仕事でのストレス、人間関係のモヤモヤをここに吐き出しています。</p>
+                </div>
+            </div>
+
+            <!-- 最近の記事 -->
+            <div class="bg-[#262423] rounded-xl shadow-lg border border-stone-800 p-6">
+                <h4 class="text-xs font-bold text-stone-200 mb-4 pb-2 border-b border-stone-800">最近の日記</h4>
+                <ul class="space-y-3 text-xs">
+                    <li>
+                        <a href="#" class="text-stone-400 hover:text-rose-400 transition-colors block">
+                            <span class="text-stone-600 block text-[10px]">2026.10.28</span>
+                            プールや着替えの時間に怯えていた学生時代を思い出して
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-stone-400 hover:text-rose-400 transition-colors block">
+                            <span class="text-stone-600 block text-[10px]">2026.10.24</span>
+                            満員電車での視線が本当に苦痛で泣いた日
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-stone-400 hover:text-rose-400 transition-colors block">
+                            <span class="text-stone-600 block text-[10px]">2026.10.18</span>
+                            子供の頃の記憶と、消えないコンプレックス
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- カテゴリ -->
+            <div class="bg-[#262423] rounded-xl shadow-lg border border-stone-800 p-6">
+                <h4 class="text-xs font-bold text-stone-200 mb-4 pb-2 border-b border-stone-800">カテゴリー</h4>
+                <ul class="space-y-2 text-xs text-stone-400">
+                    <li class="flex justify-between items-center"><a href="#" class="hover:text-rose-400">日常・愚痴</a><span class="text-stone-600">(32)</span></li>
+                    <li class="flex justify-between items-center"><a href="#" class="hover:text-rose-400">身体のコンプレックス</a><span class="text-stone-600">(24)</span></li>
+                    <li class="flex justify-between items-center"><a href="#" class="hover:text-rose-400">仕事の悩み</a><span class="text-stone-600">(15)</span></li>
+                    <li class="flex justify-between items-center"><a href="#" class="hover:text-rose-400">独り言・ポエム</a><span class="text-stone-600">(9)</span></li>
+                </ul>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- フッター -->
+    <footer class="w-full bg-[#222120] border-t border-stone-800 mt-12 py-6 text-center text-xs text-stone-500">
+        <p>&copy; 2026 佐藤愛吹 All Rights Reserved. / めいの日常吐き溜め日記</p>
+    </footer>
+
+</body>
+</html>
